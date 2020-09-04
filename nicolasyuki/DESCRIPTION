@@ -1,0 +1,10 @@
+Package: nicolasyuki
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2020-09-04
+Author: Nicolas Taba, Tim Yuki Washio
+Maintainer: Tim Yuki Washio <timwa902@student.liu.se>
+Description: bla bla
+License: MIT
+RoxygenNote: 7.1.1
