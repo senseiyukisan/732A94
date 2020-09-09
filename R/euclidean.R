@@ -11,6 +11,9 @@ euclidean <- function(a, b) {
   if (!b == round(b))
     stop("b should be integer")
   
+  a = abs(a)
+  b = abs(b)
+  
   while (a != b) {
     if (a > b) {
       a = a - b
