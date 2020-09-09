@@ -3,7 +3,7 @@
 #' @param init_node The node from which the shortest distance to all other nodes is calculated
 #' @description Implementation of Djikstra's algorithm to find the shortest path to all nodes from an initial node using an adjacency matrix
 #' @return A vector of the distances from init_node to all other nodes
-#' @references https://en.wikipedia.org/wiki/Dijkstras_algorithm and https://www.youtube.com/watch?v=Ww4nU_NcAIQ
+#' @references \url{https://en.wikipedia.org/wiki/Dijkstras_algorithm} and \url{https://www.youtube.com/watch?v=Ww4nU_NcAIQ}
 #' @export
 dijkstra <- function(graph, init_node){
   #assert dataframe of the correct form

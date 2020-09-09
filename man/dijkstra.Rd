@@ -18,5 +18,5 @@ A vector of the distances from init_node to all other nodes
 Implementation of Djikstra's algorithm to find the shortest path to all nodes from an initial node using an adjacency matrix
 }
 \references{
-https://en.wikipedia.org/wiki/Dijkstras_algorithm and https://www.youtube.com/watch?v=Ww4nU_NcAIQ
+\url{https://en.wikipedia.org/wiki/Dijkstras_algorithm} and \url{https://www.youtube.com/watch?v=Ww4nU_NcAIQ}
 }

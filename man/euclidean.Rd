@@ -18,5 +18,5 @@ The GCD of input params.
 Implementation of the substraction based euclidean algorithm to find the Greatest Common Divisior (GCD) of two Integer numbers.
 }
 \references{
-https://en.wikipedia.org/wiki/Euclidean_algorithm
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }

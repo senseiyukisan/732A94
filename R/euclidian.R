@@ -3,7 +3,7 @@
 #' @param b A Integer
 #' @description Implementation of the substraction based euclidean algorithm to find the Greatest Common Divisior (GCD) of two Integer numbers.
 #' @return The GCD of input params.
-#' @references https://en.wikipedia.org/wiki/Euclidean_algorithm
+#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #' @export
 euclidean <- function(a, b) {
   if (!a == round(a))
