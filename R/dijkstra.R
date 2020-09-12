@@ -14,12 +14,10 @@ dijkstra <- function(graph, init_node){
   
   #initial vectors and unique nodes visited
   nodes <- c(unique(graph[[1]]))
-  # print(nodes)
   nodes_to_visit <- nodes
-  nodes_to_visit_keep <- nodes
   distance <- numeric(length = length(nodes))
   distance[] <- Inf
-  visited <- c()
+  # visited <- c()
   
   #adjacency matrix
   adj_matrix <- matrix(Inf, nrow = length(nodes), ncol = length(nodes))
@@ -31,7 +29,7 @@ dijkstra <- function(graph, init_node){
   }
   diag(adj_matrix) <- 0
   
-  #matrix loop/djikstra's algorithm
+  #matrix loop/dijkstra's algorithm
   distance[init_node] <- 0
  
   while(length(nodes_to_visit != 0)){
@@ -47,8 +45,7 @@ dijkstra <- function(graph, init_node){
     nodes_to_visit <- nodes_to_visit[-u] 
   }
   #return distance vector
-  # print(length(nodes_to_visit))
-  print(visited)
+  # print(visited)
   return(distance)
 }
 wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6), v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5), w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
