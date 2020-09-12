@@ -6,9 +6,10 @@ Date: 2020-09-04
 Author: Nicolas Taba, Tim Yuki Washio
 Maintainer: Tim Yuki Washio <timwa902@student.liu.se>, Nicolas Taba <nicta839@student.liu.se>
 Description: Calculate distances based on the Euclidean distance calculation and find the shortest path between two nodes based on the Dijkstra algorithm.
-License: MIT
+License: GPL-3
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
 Suggests: 
     testthat
+LazyData: true

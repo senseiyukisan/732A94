@@ -8,7 +8,6 @@
 #'   \item{v2}{nodes}
 #'   \item{w}{weights between the nodes}
 #' }
-#' @references \url{http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
 #'
 #'
 "wiki_graph"

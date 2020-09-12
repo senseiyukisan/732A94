@@ -18,7 +18,4 @@ wiki_graph
 \description{
 wiki_graph: DataFrame containing three columns (v1, v2, w) and 18 entries.
 }
-\references{
-
-}
 \keyword{datasets}
